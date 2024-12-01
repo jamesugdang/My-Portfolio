@@ -1,0 +1,53 @@
+<!-- James Ugdang Assignment November 30 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form with text boxes</title>
+        <meta charset="utf-8">
+        <link href="portfoliostyle.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Contact Me</h1>
+        <hr>
+        <div style="background-color: lightblue; padding: 20px 0;">
+            <p style="text-align: center;">If you have any questions, feel free to reach out through the form below or via email. Additionally, if you're interested in hiring me, please don't hesitate to contact me.</p>
+            <div style="background-color: deepskyblue; text-align: center; max-width: 650px; margin: 0 auto; padding: 5px;">
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" maxlength="30" size="30"><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" maxlength="30" size="30"><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" cols="30" rows="5"></textarea><br><br>
+                </form>
+                <form action="/thebuttontonowhere.php">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div style="background-color: orange; text-align: center; max-width: 650px; margin: 0 auto; padding: 5px;">
+                <p>Are you located within New Brunswick area?</p>
+                <form>
+                    <input type="radio" id="frames" name="location" value="Yes">
+                    <label for="frames">Yes</label>
+                    <input type="radio" id="lights" name="location" value="No">
+                    <label for="lights">No</label>
+                </form>
+            </div>
+            <br><br>
+            <p style="text-align: center;">
+                Email: <a href="mailto:ugdang.james@gmail.com">ugdang.james@gmail.com</a><br>
+                LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a><br>
+                GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a><br>
+            </p>
+            <br>
+            <p style="text-align: center;">
+                <a href="index.html">Home</a><br>
+                <a href="aboutme.html">About Me</a><br>
+                <a href="projects.html">Projects</a><br>
+                <a href="contactpage.html">Contact</a>
+            </p>
+        </div>
+    </body>
+</html>
