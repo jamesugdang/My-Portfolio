@@ -1,17 +1,19 @@
-<!-- James Ugdang Assignment November 30 2024 -->
+<!--James Ugdang Final Project December 1 2024-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Form with text boxes</title>
+        <title>Contact Page</title>
         <meta charset="utf-8">
         <link href="portfoliostyle.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <h1>Contact Me</h1>
         <hr>
+        <!-- This is used to create a div container with some specific inline styling applied to it -->
         <div style="background-color: lightblue; padding: 20px 0;">
             <p style="text-align: center;">If you have any questions, feel free to reach out through the form below or via email. Additionally, if you're interested in hiring me, please don't hesitate to contact me.</p>
             <div style="background-color: deepskyblue; text-align: center; max-width: 650px; margin: 0 auto; padding: 5px;">
+                <!-- This form section collects the user's name through a text input field. -->
                 <form>
                     <label for="name">Name:</label><br>
                     <input type="text" id="name" name="name" maxlength="30" size="30"><br><br>
@@ -22,6 +24,7 @@
                     <label for="message">Message:</label><br>
                     <textarea id="message" name="message" cols="30" rows="5"></textarea><br><br>
                 </form>
+                <!-- This form contains a submit button that, when clicked, sends the form data to the specified action URL ("/thebuttontonowhere.php"). -->
                 <form action="/thebuttontonowhere.php">
                     <input type="submit" value="Submit">
                 </form>
@@ -36,12 +39,15 @@
                 </form>
             </div>
             <br><br>
+            <!-- This section displays the contact information for James Ugdang, including email, LinkedIn, and GitHub links. 
+     The email link opens the default mail client, while the LinkedIn and GitHub links open in a new tab. -->
             <p style="text-align: center;">
-                Email: <a href="mailto:ugdang.james@gmail.com">ugdang.james@gmail.com</a><br>
+                Email: <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">ugdang.james@gmail.com</a><br>
                 LinkedIn: <a href="https://www.linkedin.com/in/jamesugdang/" target="_blank">linkedin.com/in/jamesugdang</a><br>
                 GitHub: <a href="https://github.com/jamesugdang" target="_blank">github.com/jamesugdang</a><br>
             </p>
             <br>
+            <!-- This is for creating a simple navigation menu to the other webpages -->
             <p style="text-align: center;">
                 <a href="index.html">Home</a><br>
                 <a href="aboutme.html">About Me</a><br>
